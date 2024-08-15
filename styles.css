@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+/* header */
+
+header {
+    background-color: black;
+    color: #785f42;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #c19976;
+}
+
+h1 {
+    padding-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #785f42;
+}
+
+/* hero */
+
+.hero {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-image {
+    width: 411px;
+    height: 308px;
+    border-radius: 30px;
+    padding: 24px 0px;
+}
+
+.hero-left {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #785f42;
+    align-self: flex-start;
+}
+
+.desc {
+    color: #c19976;
+    padding: 12px 0px 24px 0px;
+}
+strong {
+    color: #785f42;;
+}
+ .hero-button {
+    align-self: center;
+    padding: 12px;
+    background-color: #785f42;
+    border: 1px solid #785f42;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 2px 2px #c19976;
+ }
+
+ .hero-button:hover {
+    box-shadow: none;
+ }
+
+ /* companions */
+
+ .companions {
+    background-color: #785f42;
+ }
+
+ .companion-title {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    padding: 24px 0px;
+ }
+
+ .profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    padding-bottom: 32px;
+ }
+
+ .icon {
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 25px;
+    text-align: center;
+ }
+
+ .icon:hover {
+    box-shadow: 4px 4px black;
+ }
+
+ .icon-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 12px 0px;
+ }
+
+ .nickname {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: #785f42;
+    padding: 8px;
+    font-size: 18px;
+ }
+
+ h5 {
+    font-size: 24px;
+    padding-bottom: 4px;
+ }
+
+.race-class {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+/* quote */
+
