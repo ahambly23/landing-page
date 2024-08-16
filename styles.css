@@ -210,8 +210,9 @@ h5 {
  }
 
 h6 {
-    font-size: 18px;
+    font-size: 32px;
     padding-bottom: 12px;
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
  }
 
  .cta-button {
