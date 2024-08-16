@@ -12,13 +12,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding: 12px;
     border-bottom: 1px solid #c19976;
-}
-
-h1 {
-    padding-left: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul {
@@ -30,7 +25,8 @@ ul {
 
 a {
     text-decoration: none;
-    color: #785f42;
+    color: #c19976;
+    font-size: 18px;
 }
 
 /* hero */
@@ -40,14 +36,19 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
+    padding: 48px 0px;
+}
+
+header img {
+    width: 150px;
+    height: 80px;
+    margin-left: 40px;
 }
 
 .hero-image {
     width: 411px;
     height: 308px;
     border-radius: 30px;
-    padding: 24px 0px;
 }
 
 .hero-left {
@@ -60,8 +61,9 @@ a {
 .hero-title {
     font-size: 48px;
     font-weight: 800;
-    color: #785f42;
+    color: #c19976;
     align-self: flex-start;
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
 }
 
 .desc {
@@ -71,34 +73,35 @@ a {
 strong {
     color: #785f42;;
 }
- .hero-button {
+.hero-button {
     align-self: center;
     padding: 12px;
     background-color: #785f42;
     border: 1px solid #785f42;
-    border-radius: 20px;
+    border-radius: 12px;
     color: black;
-    box-shadow: 2px 2px #c19976;
+    box-shadow: 4px 4px #c19976;
  }
 
- .hero-button:hover {
+.hero-button:hover {
     box-shadow: none;
  }
 
  /* companions */
 
- .companions {
-    background-color: #785f42;
+.companions {
+    background-color: #c19976;
+    border-bottom: 1px solid black;
  }
 
- .companion-title {
+.companion-title {
     font-size: 36px;
     font-weight: 800;
     text-align: center;
     padding: 24px 0px;
  }
 
- .profiles {
+.profiles {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
@@ -106,7 +109,7 @@ strong {
     padding-bottom: 32px;
  }
 
- .icon {
+.icon {
     width: 300px;
     border: 3px solid black;
     border-radius: 6px;
@@ -114,36 +117,124 @@ strong {
     text-align: center;
  }
 
- .icon:hover {
+.icon:hover {
     box-shadow: 4px 4px black;
  }
 
- .icon-img {
+.icon-img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
     margin: 12px 0px;
  }
 
- .nickname {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.nickname {
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
     background-color: black;
     border: 1px solid black;
     border-radius: 20px;
-    color: #785f42;
+    color: #c19976;
     padding: 8px;
     font-size: 18px;
  }
 
- h5 {
+h5 {
     font-size: 24px;
     padding-bottom: 4px;
  }
 
 .race-class {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
     font-size: 12px;
 }
 
 /* quote */
 
+.quote {
+    padding: 180px 0px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #785f42;
+    border-bottom: 1px solid black;
+
+}
+
+.quote-div {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    border-bottom: 1px solid black;
+    padding-bottom: 18px;
+ }
+
+.quote-text em {
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+    font-weight: 700;
+ }
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+    padding-top: 18px;
+ }
+
+ /* call to action */
+
+.final-section {
+    background-color: #c19976;
+    padding: 90px;
+    border-bottom: 1px solid #c19976;
+ }
+
+.cta {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+    border-radius: 10px;
+ }
+
+.cta-left {
+    max-width: 600px;
+    color: #c19976;
+ }
+
+h6 {
+    font-size: 18px;
+    padding-bottom: 12px;
+ }
+
+ .cta-button {
+    align-self: center;
+    padding: 12px;
+    background-color: #785f42;
+    border: 1px solid #785f42;
+    border-radius: 12px;
+    color: black;
+    box-shadow: 4px 4px #c19976;
+ }
+
+ .cta-button:hover {
+    box-shadow: none;
+ }
+
+ /* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #c19976;
+    padding: 40px;
+}
